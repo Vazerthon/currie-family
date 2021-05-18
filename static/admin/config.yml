@@ -1,6 +1,7 @@
 backend:
-  name: github
-  repo: vazerthon/currie-family-history
+  name: git-gateway
+  branch: main
+  repo: vazerthon/currie-family
   branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
