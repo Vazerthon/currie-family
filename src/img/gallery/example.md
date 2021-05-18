@@ -1,8 +1,8 @@
 ---
 queryKey: gallery-picture
-image: /img/example.jpg
-title: Example Image
-description: Example image description text
+image: /img/dsc02470-2-.jpg
+title: Swan
+description: Swan on Duddingston Loch
 tags:
   - Example Tag One
   - Example Tag Two
