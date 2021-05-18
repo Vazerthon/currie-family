@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: vazerthon/currie-family-history
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Main Page"
+        name: "index"
+        fields:
+          - {label: "QueryKey", name: "queryKey", widget: "hidden", default: "main-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
+          - {label: About, name: about, widget: text}
+  - name: "gallery-picture"
+    label: "Gallery Pictures"
+    folder: "src/img/gallery"
+    create: true
+    fields:
+      - {label: "QueryKey", name: "queryKey", widget: "hidden", default: "gallery-picture"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        pattern: [".{0,100}", "100 characters max"]
+      - {label: "Tags", name: "tags", widget: "list", default: []}
