@@ -1,8 +1,8 @@
 ---
 queryKey: gallery-picture
-image: /img/dsc02470-2-.jpg
-title: Swan
-description: Swan on Duddingston Loch
+image: /img/img_20201116_0004.jpg
+title: Family
+description: The Curries at Mwenzo
 tags:
   - Example Tag One
   - Example Tag Two
