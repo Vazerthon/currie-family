@@ -4,5 +4,12 @@ image: /img/img_20201116_0004.jpg
 title: Currie family
 description: Renfrew 1957
 tags:
-  - One
+  - Milton
+  - Nancy
+  - David
+  - Douglas
+  - Joan
+  - Marion
+  - Scotland
+  - 1950s
 ---
