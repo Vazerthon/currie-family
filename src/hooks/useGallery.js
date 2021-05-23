@@ -6,8 +6,9 @@ import useRoutes from './useRoutes';
 const kebabCase = (string) => string.toLowerCase().replaceAll(' ', '-');
 const deDupedList = (list) => Array.from(new Set(list));
 const defaultSorting = (a, b) => (a > b ? 1 : -1);
+const toLowerCase = (string) => string.toLowerCase();
 const allTagsIn = (images) =>
-  deDupedList(images.flatMap(({ tags }) => tags)).sort(defaultSorting);
+  deDupedList(images.flatMap(({ tags }) => tags)).sort(defaultSorting).map(toLowerCase);
 
 const makeFindImageByTitle = (images) => (title) =>
   images.find((img) => title === kebabCase(img.title));
@@ -18,7 +19,7 @@ export default function useGallery(images) {
   const [initialised, setInitialised] = useState();
   const [activeImage, setActiveImage] = useState();
   const [focusedImage, setFocusedImage] = useState();
-  const [activeTag, setActiveTag] = useState(allTags[0]);
+  const [activeTag, setActiveTag] = useState('all pictures');
   const { search, updatePath } = useWindow();
   const { buildImagePath, getTitleFromImagePath } = useRoutes();
 
@@ -38,7 +39,7 @@ export default function useGallery(images) {
     Enter: handleOpenImageWithKeyboard,
   });
 
-  const filteredImages = images.filter(({ tags }) => tags.includes(activeTag));
+  const filteredImages = images.filter(({ tags }) => tags.map(toLowerCase).includes(activeTag));
 
   useEffect(() => {
     if (initialised) {

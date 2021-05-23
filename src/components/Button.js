@@ -10,7 +10,8 @@ const Button = styled.button`
   text-align: left;
   cursor: pointer;
   width: max-content;
-
+  text-transform: capitalize;
+  
   :hover,
   :focus {
     transform: rotate(-3deg);
