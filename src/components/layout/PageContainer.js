@@ -22,7 +22,7 @@ export default function PageContainer({
             box-sizing: border-box;
             body {
               margin: 0;
-              background-color: ${theme.colour.black};
+              background-color: ${theme.colour.secondary};
               color: ${theme.colour.white};
             }
           }

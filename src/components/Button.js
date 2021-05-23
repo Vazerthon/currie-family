@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import theme from './theme';
 
 const Button = styled.button`
-  background-color: ${theme.colour.black};
+  background-color: ${theme.colour.secondary};
   border: none;
   color: ${theme.colour.primary};
   margin: ${theme.spacing.units(2)};
@@ -15,13 +15,13 @@ const Button = styled.button`
   :hover,
   :focus {
     transform: rotate(-3deg);
-    text-decoration: underline ${theme.colour.secondary};
+    text-decoration: underline ${theme.colour.white};
   }
 
   ${({ active }) =>
     active && `
       transform: rotate(-3deg);
-      text-decoration: underline ${theme.colour.secondary};
+      text-decoration: underline ${theme.colour.white};
     `}
 `;
 

@@ -10,7 +10,7 @@ import Modal from '../Modal';
 import theme from '../theme';
 
 const darkBackground = css`
-  background-color: ${theme.colour.black};
+  background-color: ${theme.colour.secondary};
 `;
 
 const LargeImage = styled(GatsbyImage)`

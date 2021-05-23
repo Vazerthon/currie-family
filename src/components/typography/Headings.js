@@ -13,7 +13,6 @@ export const H2 = styled.h2`
   margin: 0;
   margin-bottom: ${theme.spacing.units(0.5)};
   font-size: ${theme.spacing.units(7)};
-  ${({ dark }) => dark && `color: ${theme.colour.black};`}
 
   ${({ smallOnMobile }) => smallOnMobile && media('<=tablet')} {
     font-size: ${theme.spacing.units(4)};
