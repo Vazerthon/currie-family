@@ -58,7 +58,7 @@ const ImageWrapper = styled.div`
     border: ${theme.spacing.units(0.5)} solid transparent;
   }
 
-  :focus {
+  :focus, :hover {
     .gatsby-image-wrapper {
       border-color: ${theme.colour.primary};
     }
@@ -70,7 +70,7 @@ const Select = styled.select`
   border: 1px solid ${theme.colour.primary};
   font-size: ${theme.spacing.units(4)};
   padding: ${theme.spacing.units(1)};
-  background-color: ${theme.colour.black};
+  background-color: ${theme.colour.secondary};
   color: ${theme.colour.white};
   text-transform: capitalize;
   background-image: none;

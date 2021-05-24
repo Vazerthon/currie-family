@@ -69,8 +69,8 @@ module.exports = {
         name: 'Currie Family History',
         short_name: 'Currie Family History',
         start_url: '/',
-        background_color: theme.colour.primary,
-        theme_color: theme.colour.black,
+        background_color: theme.colour.secondary,
+        theme_color: theme.colour.primary,
         icon: 'src/img/favicon.png',
         display: 'standalone',
         icon_options: {
