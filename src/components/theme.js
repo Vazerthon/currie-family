@@ -8,8 +8,8 @@ module.exports = {
   },
   colour: {
     white: '#ffffff',
-    primary: '#ef8c00',
-    secondary: '#003666',
+    primary: '#83c6ff',
+    secondary: '#1a334a',
     transparentBackground: 'rgba(41, 41, 41, 90%)',
   },
   spacing: {
