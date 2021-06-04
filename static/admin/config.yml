@@ -41,7 +41,6 @@ collections:
     label: "Blog"
     folder: "src/content/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "QueryKey", name: "queryKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
