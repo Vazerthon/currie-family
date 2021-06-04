@@ -37,3 +37,12 @@ collections:
         widget: "string"
         pattern: [".{0,100}", "100 characters max"]
       - {label: "Tags", name: "tags", widget: "list", default: []}
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
