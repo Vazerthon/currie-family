@@ -9,5 +9,5 @@ tags:
   - Joan
   - Marion
   - Zambia
-  - "1964"
+  - 1960s
 ---
