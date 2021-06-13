@@ -7,5 +7,5 @@ tags:
   - All pictures
   - Nancy
   - Scotland
-  - "1948"
+  - 1940s
 ---
