@@ -7,5 +7,5 @@ tags:
   - All pictures
   - Milton
   - Scotland
-  - "1947"
+  - 1940s
 ---
