@@ -7,5 +7,5 @@ tags:
   - All pictures
   - David
   - Transkei
-  - "1950"
+  - 1950s
 ---
