@@ -10,5 +10,5 @@ tags:
   - Marion
   - Zanna
   - Scotland
-  - "1974"
+  - 1970s
 ---
