@@ -9,5 +9,5 @@ tags:
   - David
   - Douglas
   - Zambia
-  - "1954"
+  - 1950s
 ---
