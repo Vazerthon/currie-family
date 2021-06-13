@@ -9,6 +9,6 @@ tags:
   - Joan
   - Marion
   - Catherine
-  - Zambia
+  - Malawi
   - 1950s
 ---
