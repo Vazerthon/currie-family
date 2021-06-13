@@ -7,5 +7,5 @@ tags:
   - All pictures
   - Marion
   - Zambia
-  - "1955"
+  - 1950s
 ---
