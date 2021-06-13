@@ -8,5 +8,5 @@ tags:
   - Milton
   - Gordon
   - Scotland
-  - "1930"
+  - 1930s
 ---
