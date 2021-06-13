@@ -7,4 +7,5 @@ tags:
   - All pictures
   - Extended
   - Catherine
+  - 1950s
 ---
