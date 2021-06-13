@@ -2,7 +2,7 @@
 queryKey: gallery-picture
 image: /img/001.jpg
 title: Milton and Gordon
-description: Scotlaand 1930
+description: Scotland 1930
 tags:
   - All pictures
   - Milton
