@@ -4,6 +4,7 @@ image: /img/img_20210620_0005.jpg
 title: David and Douglas
 description: Scotland, 1961
 tags:
+  - All pictures
   - David
   - Douglas
   - Scotland
