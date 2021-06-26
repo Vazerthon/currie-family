@@ -6,6 +6,6 @@ description: Sulenkama, 1950
 tags:
   - All pictures
   - David
-  - Transkei
+  - South Africa
   - 1950s
 ---
