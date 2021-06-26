@@ -7,7 +7,6 @@ tags:
   - All pictures
   - Joan
   - Douglas
-  - Chitambo
   - 1960s
   - Zambia
 ---
