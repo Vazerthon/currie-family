@@ -5,7 +5,7 @@ title: David, Jean Todd, Marion
 description: Mwenzo, 1955
 tags:
   - All pictures
-  - Jean Todd
+  - Todd Family
   - David
   - Marion
   - Zambia
