@@ -12,5 +12,5 @@ tags:
   - Marion
   - Nancy
   - Zambia
-  - "1955"
+  - 1950s
 ---
