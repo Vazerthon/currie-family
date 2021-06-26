@@ -12,9 +12,7 @@ tags:
   - Joan
   - Libby
   - Zanna
-  - Johnny Todd
-  - Gordon Todd
-  - Muriel Todd
+  - Todd Family
   - Extended
   - Zambia
   - 1960s
