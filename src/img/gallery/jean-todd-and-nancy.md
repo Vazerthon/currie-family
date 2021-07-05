@@ -7,5 +7,5 @@ tags:
   - All pictures
   - Todd family
   - Nancy
-  - "1948"
+  - 1940s
 ---
