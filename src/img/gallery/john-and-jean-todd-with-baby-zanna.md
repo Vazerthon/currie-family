@@ -8,5 +8,5 @@ tags:
   - Todd family
   - Zanna
   - Zambia
-  - "1964"
+  - 1960s
 ---
