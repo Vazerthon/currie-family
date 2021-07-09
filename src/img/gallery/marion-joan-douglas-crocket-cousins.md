@@ -8,5 +8,5 @@ tags:
   - Marion
   - Joan
   - Douglas
-  - "1962"
+  - 1960s
 ---
