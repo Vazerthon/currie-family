@@ -8,7 +8,8 @@ tags:
   - David
   - Douglas
   - Joan
-  - MarionMilton
+  - Marion
+  - Milton
   - Todd Family
   - Scotland
   - 1960s
