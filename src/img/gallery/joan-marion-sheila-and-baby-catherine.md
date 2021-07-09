@@ -5,7 +5,6 @@ title: Joan, Marion, Sheila and baby Catherine
 description: Kochira, 1959
 tags:
   - All pictures
-  - Extended
   - Joan
   - Marion
   - Catherine
