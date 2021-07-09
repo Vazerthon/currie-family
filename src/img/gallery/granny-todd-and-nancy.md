@@ -6,7 +6,6 @@ description: Scotland, 1948
 tags:
   - All pictures
   - Nancy
-  - Extended
   - Scotland
   - 1940s
 ---
