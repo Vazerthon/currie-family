@@ -13,7 +13,6 @@ tags:
   - Libby
   - Zanna
   - Todd Family
-  - Extended
   - Zambia
   - 1960s
 ---
