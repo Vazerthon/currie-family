@@ -5,7 +5,6 @@ title: "Baby David "
 description: Milton, Nancy and Granny, Renfrew 1950
 tags:
   - All pictures
-  - Extended
   - Nancy
   - Milton
   - David
