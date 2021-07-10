@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 import BlogPageTemplate from '../components/layout/BlogPageTemplate';
 
 export default function BlogPage({ pageContext }) {
-  return <BlogPageTemplate blogPosts={pageContext.posts} />;
+  return (
+    <BlogPageTemplate
+      blogPosts={pageContext.posts}
+      pageTitle={pageContext.pageTitle}
+      pageHeading={pageContext.pageHeading}
+    />
+  );
 }
 
 BlogPage.propTypes = {
@@ -14,5 +20,7 @@ BlogPage.propTypes = {
       rawMarkdownBody: PropTypes.string,
       date: PropTypes.string,
     }).isRequired,
+    pageTitle: PropTypes.string.isRequired,
+    pageHeading: PropTypes.string.isRequired,
   }).isRequired,
 };
