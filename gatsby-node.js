@@ -9,12 +9,6 @@ exports.createPages = async ({ actions, graphql }) => {
     component: path.resolve('src/templates/index-page.js'),
   });
 
-  // blog list
-  createPage({
-    path: '/blog',
-    component: path.resolve('src/templates/blog-page.js'),
-  });
-
   // blog pages
   const blogPosts = await graphql(`
     query BlogPageTemplate {
@@ -26,22 +20,39 @@ exports.createPages = async ({ actions, graphql }) => {
             id
             frontmatter {
               title
+              date
             }
+            rawMarkdownBody
           }
         }
       }
     }
   `);
 
-  const blogPostNodes = blogPosts.data.blogPosts.edges.map(({ node }) => node);
+  const blogPostData = blogPosts.data.blogPosts.edges
+    .map(({ node }) => node)
+    .map(({ frontmatter: { title, date }, id, rawMarkdownBody }) => ({
+      id,
+      title,
+      date,
+      rawMarkdownBody,
+      slug: title.toLowerCase().replaceAll(' ', '-'),
+    }));
 
-  blogPostNodes.forEach((node) => {
+  blogPostData.forEach((post) => {
     createPage({
-      path: `blog/${node.id}`,
+      path: `blog/${post.slug}`,
       component: path.resolve('src/templates/blog-post.js'),
-      context: {
-        title: 'x',
-      },
+      context: post,
     });
+  });
+
+  // blog list
+  createPage({
+    path: '/blog',
+    component: path.resolve('src/templates/blog-page.js'),
+    context: {
+      posts: blogPostData,
+    },
   });
 };
