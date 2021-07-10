@@ -7,6 +7,7 @@ const Button = styled.button`
   color: ${theme.colour.primary};
   margin: ${theme.spacing.units(2)};
   font-size: ${theme.spacing.units(4)};
+  font-family: ${theme.typography.fontFamilyHeading};
   text-align: left;
   cursor: pointer;
   width: max-content;
