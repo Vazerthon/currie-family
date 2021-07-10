@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { Helmet } from 'react-helmet';
 import { Global, css } from '@emotion/react';
 
+import Link from '../Link';
 import { TitleContainer, HeadingContainer } from './Grid';
 import { H1, H2 } from '../typography/Headings';
 
@@ -14,19 +15,6 @@ const Nav = styled.nav`
   justify-content: flex-end;
   border-bottom: 1px solid ${theme.colour.primary};
   margin-bottom: ${theme.spacing.units(2)};
-`;
-
-const Link = styled.a`
-  color: ${theme.colour.primary};
-  margin: 0 ${theme.spacing.units(2)};
-  font-family: ${theme.typography.fontFamilyHeading};
-  text-decoration: none;
-  
-  :hover,
-  :focus {
-    transform: rotate(-3deg);
-    text-decoration: underline ${theme.colour.white};
-  }
 `;
 
 export default function PageContainer({

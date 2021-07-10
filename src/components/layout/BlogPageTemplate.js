@@ -1,5 +1,22 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import PageContainer from './PageContainer';
+
+import Link from '../Link';
+import { H2 } from '../typography/Headings';
+import { Grid } from './Grid';
+
+import theme from '../theme';
+
+const BlogPostContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: ${theme.spacing.units(4)} 0;
+  padding: ${theme.spacing.units(4)};
+  border: 1px solid ${theme.colour.primary};
+  border-radius: ${theme.spacing.units(1)};
+`;
 
 export default function IndexPageTemplate({
   blogPosts,
@@ -14,12 +31,16 @@ export default function IndexPageTemplate({
       pageTitle={pageTitle}
       pageHeading={pageHeading}
     >
-      {blogPosts.map(({ id, title, slug }) => (
-        <div key={id}>
-          <h2>{title}</h2>
-          <a href={`/blog/${slug}`}>{title}</a>
-        </div>
-      ))}
+      <Grid>
+        {blogPosts.map(({ id, title, slug }) => (
+          <BlogPostContainer key={id}>
+            <H2>{title}</H2>
+            <Link tabIndex={0} href={`/blog/${slug}`}>
+              {`Read more of ${title}...`}
+            </Link>
+          </BlogPostContainer>
+        ))}
+      </Grid>
     </PageContainer>
   );
 }

@@ -1,5 +1,11 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import PageContainer from './PageContainer';
+
+import { Grid } from './Grid';
+import { H2 } from '../typography/Headings';
+
+import theme from '../theme';
 
 export default function BlogPostTemplate({ post, pageTitle, pageHeading }) {
   return (
@@ -10,7 +16,11 @@ export default function BlogPostTemplate({ post, pageTitle, pageHeading }) {
       pageTitle={pageTitle}
       pageHeading={pageHeading}
     >
-      {post.title}
+      <Grid>
+        <H2>
+          {post.title}
+        </H2>
+      </Grid>
     </PageContainer>
   );
 }
