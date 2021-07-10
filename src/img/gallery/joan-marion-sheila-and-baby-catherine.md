@@ -2,13 +2,12 @@
 queryKey: gallery-picture
 image: /img/img_20201123_0014.jpg
 title: Joan, Marion, Sheila and baby Catherine
-description: Mwenzo 1959
+description: Kochira, 1959
 tags:
   - All pictures
-  - Extended
   - Joan
   - Marion
   - Catherine
-  - Zambia
+  - Malawi
   - 1950s
 ---

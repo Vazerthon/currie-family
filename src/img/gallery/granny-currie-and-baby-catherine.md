@@ -5,6 +5,7 @@ title: Granny Currie and baby Catherine
 description: Kochira 1959
 tags:
   - All pictures
-  - Extended
+  - Isobel
   - Catherine
+  - 1950s
 ---

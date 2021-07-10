@@ -5,11 +5,11 @@ title: Todds and Curries
 description: Renfrew 1957
 tags:
   - All pictures
-  - Extended
   - Milton
   - Nancy
   - David
   - Douglas
   - Joan
   - Marion
+  - 1950s
 ---
