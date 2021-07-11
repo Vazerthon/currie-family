@@ -1,11 +1,9 @@
-import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import PageContainer from './PageContainer';
 
 import { Grid } from './Grid';
 import { H2 } from '../typography/Headings';
-
-import theme from '../theme';
+import Markdown from '../Markdown';
 
 export default function BlogPostTemplate({ post, pageTitle, pageHeading }) {
   return (
@@ -20,6 +18,7 @@ export default function BlogPostTemplate({ post, pageTitle, pageHeading }) {
         <H2>
           {post.title}
         </H2>
+        <Markdown source={post.rawMarkdownBody} />
       </Grid>
     </PageContainer>
   );

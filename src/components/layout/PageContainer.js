@@ -44,7 +44,7 @@ export default function PageContainer({
       />
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>{`Currie Family | ${title}`}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Helmet>

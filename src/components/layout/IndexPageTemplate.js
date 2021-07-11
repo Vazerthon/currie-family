@@ -9,7 +9,7 @@ import { H3 } from '../typography/Headings';
 export default function IndexPageTemplate({ title, heading, about, gallery }) {
   return (
     <PageContainer
-      title={title}
+      title="Home"
       description=""
       keywords=""
       pageHeading={heading}

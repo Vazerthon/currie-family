@@ -46,12 +46,12 @@ export default function IndexPageTemplate({
 }
 
 IndexPageTemplate.propTypes = {
-  blogPosts: PropTypes.arrayOf({
+  blogPosts: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     title: PropTypes.string,
     rawMarkdownBody: PropTypes.string,
     date: PropTypes.string,
-  }).isRequired,
+  })).isRequired,
   pageTitle: PropTypes.string.isRequired,
   pageHeading: PropTypes.string.isRequired,
 };

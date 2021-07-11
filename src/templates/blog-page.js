@@ -14,12 +14,12 @@ export default function BlogPage({ pageContext }) {
 
 BlogPage.propTypes = {
   pageContext: PropTypes.shape({
-    posts: PropTypes.arrayOf({
+    posts: PropTypes.arrayOf(PropTypes.shape({
       id: PropTypes.string,
       title: PropTypes.string,
       rawMarkdownBody: PropTypes.string,
       date: PropTypes.string,
-    }).isRequired,
+    })).isRequired,
     pageTitle: PropTypes.string.isRequired,
     pageHeading: PropTypes.string.isRequired,
   }).isRequired,
