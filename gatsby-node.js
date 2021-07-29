@@ -76,7 +76,7 @@ exports.createPages = async ({ actions, graphql }) => {
     heading: pageHeading,
   } = mainPageData.data.pageData.edges[0].node.frontmatter;
 
-  const blogPostData = blogPosts.data.blogPosts.edges
+  const blogPostData = blogPosts?.data?.blogPosts?.edges
     .map(({ node }) => node)
     .map(({ frontmatter: { title, date }, id, rawMarkdownBody }) => ({
       id,
@@ -84,7 +84,7 @@ exports.createPages = async ({ actions, graphql }) => {
       date,
       rawMarkdownBody,
       slug: title.toLowerCase().replaceAll(' ', '-'),
-    }));
+    })) || [];
 
   // individual blog pages
   blogPostData.forEach((post) => {

@@ -4,6 +4,7 @@ import PageContainer from './PageContainer';
 
 import Link from '../Link';
 import { H2 } from '../typography/Headings';
+import Paragraph from '../typography/Paragraph';
 import { Grid } from './Grid';
 
 import theme from '../theme';
@@ -23,6 +24,8 @@ export default function IndexPageTemplate({
   pageTitle,
   pageHeading,
 }) {
+  const haveBlogPosts = !!blogPosts.length;
+
   return (
     <PageContainer
       title="Blog"
@@ -32,26 +35,35 @@ export default function IndexPageTemplate({
       pageHeading={pageHeading}
     >
       <Grid>
-        {blogPosts.map(({ id, title, slug }) => (
-          <BlogPostContainer key={id}>
-            <H2>{title}</H2>
-            <Link tabIndex={0} href={`/blog/${slug}`}>
-              {`Read more of ${title}...`}
-            </Link>
-          </BlogPostContainer>
-        ))}
+        {haveBlogPosts &&
+          blogPosts.map(({ id, title, slug }) => (
+            <BlogPostContainer key={id}>
+              <H2>{title}</H2>
+              <Link tabIndex={0} href={`/blog/${slug}`}>
+                {`Read more of ${title}...`}
+              </Link>
+            </BlogPostContainer>
+          ))}
+        {!haveBlogPosts && (
+          <Paragraph>
+            We haven&apos;t posted anything on our blog yet, please check back
+            soon!
+          </Paragraph>
+        )}
       </Grid>
     </PageContainer>
   );
 }
 
 IndexPageTemplate.propTypes = {
-  blogPosts: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string,
-    title: PropTypes.string,
-    rawMarkdownBody: PropTypes.string,
-    date: PropTypes.string,
-  })).isRequired,
+  blogPosts: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      title: PropTypes.string,
+      rawMarkdownBody: PropTypes.string,
+      date: PropTypes.string,
+    }),
+  ).isRequired,
   pageTitle: PropTypes.string.isRequired,
   pageHeading: PropTypes.string.isRequired,
 };
