@@ -1,5 +1,15 @@
 const path = require('path');
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+      date: Date
+    }
+  `;
+  createTypes(typeDefs);
+};
+
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
@@ -71,20 +81,19 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `);
 
-  const {
-    title: pageTitle,
-    heading: pageHeading,
-  } = mainPageData.data.pageData.edges[0].node.frontmatter;
+  const { title: pageTitle, heading: pageHeading } =
+    mainPageData.data.pageData.edges[0].node.frontmatter;
 
-  const blogPostData = blogPosts?.data?.blogPosts?.edges
-    .map(({ node }) => node)
-    .map(({ frontmatter: { title, date }, id, rawMarkdownBody }) => ({
-      id,
-      title,
-      date,
-      rawMarkdownBody,
-      slug: title.toLowerCase().replaceAll(' ', '-'),
-    })) || [];
+  const blogPostData =
+    blogPosts?.data?.blogPosts?.edges
+      .map(({ node }) => node)
+      .map(({ frontmatter: { title, date }, id, rawMarkdownBody }) => ({
+        id,
+        title,
+        date,
+        rawMarkdownBody,
+        slug: title.toLowerCase().replaceAll(' ', '-'),
+      })) || [];
 
   // individual blog pages
   blogPostData.forEach((post) => {
