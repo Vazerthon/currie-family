@@ -4,6 +4,7 @@ image: /img/img_20210722_0023.jpg
 title: Clara, David and Nancy
 description: Sulenkama, 1950
 tags:
+  - All pictures
   - Nancy
   - David
   - South Africa
