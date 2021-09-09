@@ -2,9 +2,9 @@
 queryKey: gallery-picture
 image: /img/img_20210722_0014.jpg
 title: Milton
-description: Chitambo, 1968
+description: Chitambo, 1973
 tags:
   - Milton
   - Zambia
-  - 1960s
+  - 1970s
 ---
