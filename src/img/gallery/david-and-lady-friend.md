@@ -4,6 +4,7 @@ image: /img/img_20210722_0006.jpg
 title: David and lady friend
 description: Mwenzo, 1954
 tags:
+  - All pictures
   - David
   - Zambia
   - 1950s
