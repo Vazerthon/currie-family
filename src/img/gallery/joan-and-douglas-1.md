@@ -7,5 +7,5 @@ tags:
   - Joan
   - Douglas
   - Scotland
-  - "1967"
+  - 1960s
 ---
