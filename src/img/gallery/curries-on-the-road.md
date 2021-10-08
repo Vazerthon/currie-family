@@ -9,7 +9,7 @@ tags:
   - '"Marion"'
   - '"Douglas"'
   - '"Joan"'
-  - '""Nancy"'
+  - '"Nancy"'
   - '"Milton"'
   - '"1950s"'
 ---
