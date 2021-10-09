@@ -7,5 +7,5 @@ tags:
   - All pictures
   - Hamilton Currie
   - Scotland
-  - "1920"
+  - 1920s
 ---
