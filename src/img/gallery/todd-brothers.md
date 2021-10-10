@@ -5,5 +5,6 @@ title: Todd brothers
 description: William Todd and John Todd, circa 1917
 tags:
   - All pictures
-  - JohnTodd
+  - Todd
+  - family
 ---
