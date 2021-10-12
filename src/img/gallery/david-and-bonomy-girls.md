@@ -7,5 +7,5 @@ tags:
   - All pictures
   - David
   - Zambia
-  - "1954"
+  - 1950s
 ---
