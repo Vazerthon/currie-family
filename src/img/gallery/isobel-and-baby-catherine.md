@@ -6,4 +6,5 @@ description: Malawi 1950s
 tags:
   - Isobel
   - Catherine
+  - 1950s
 ---
