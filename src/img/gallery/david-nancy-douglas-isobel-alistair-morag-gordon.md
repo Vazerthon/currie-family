@@ -1,7 +1,7 @@
 ---
 queryKey: gallery-picture
 image: /img/img_20210619_0004.jpg
-title: David ,Nancy, Douglas, Isobel, Alistair, Morag, Gordon
+title: David ,Nancy, Douglas, Isobel, Alasdair, Morag, Gordon
 description: Glasgow, 1951
 tags:
   - All pictures
