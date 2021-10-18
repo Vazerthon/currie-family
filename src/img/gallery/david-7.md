@@ -2,10 +2,10 @@
 queryKey: gallery-picture
 image: /img/img_20210904_0031.jpg
 title: David
-description: Glasgow, 1951
+description: Tugela?, 1953?
 tags:
   - All pictures
   - David
-  - Scotland
+  - South Africa
   - 1950s
 ---
