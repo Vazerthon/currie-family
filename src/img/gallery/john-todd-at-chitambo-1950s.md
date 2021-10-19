@@ -5,7 +5,7 @@ title: John Todd at Chitambo, 1950's
 description: John Todd taking an xray, Chitambo, 1950s
 tags:
   - '"All pictures"'
-  - '"John Todd"'
+  - '"Todd Family"'
   - Chitambo
   - 1950s
 ---
