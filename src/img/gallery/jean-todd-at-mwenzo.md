@@ -5,7 +5,7 @@ title: Jean Todd at Mwenzo
 description: Jean Todd outside Currie house at Mwenzo, early 1950s
 tags:
   - '"All pictures"'
-  - '"Jean Todd"'
+  - '"Todd Family"'
   - Mwenzo
   - 1950s
 ---
