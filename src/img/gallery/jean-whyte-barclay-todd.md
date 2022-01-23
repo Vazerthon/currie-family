@@ -4,7 +4,7 @@ image: /img/1922-jean-whyte-barclay-2-.jpg
 title: Jean Whyte Barclay Todd
 description: Jean Whyte Barclay...who became Todd, about 1923
 tags:
-  - '"All pictures"'
-  - '"Todd Family"'
+  - All pictures
+  - Todd Family
   - 1920s
 ---
