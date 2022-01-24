@@ -5,5 +5,6 @@ title: Jean Todd at Mwenzo
 description: Jean Todd outside Currie house at Mwenzo, early 1950s
 tags:
   - Jean Todd
-  - Zambia1950s
+  - Zambia
+  - 1950s
 ---
