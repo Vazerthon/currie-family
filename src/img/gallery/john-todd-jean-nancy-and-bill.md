@@ -5,7 +5,9 @@ title: John Todd, Jean, Nancy and Bill
 description: Glasgow, 1941
 tags:
   - All pictures
-  - Todd family
+  - John Todd
+  - Jean Todd
+  - Bill
   - Nancy
   - Scotland
   - 1940s
