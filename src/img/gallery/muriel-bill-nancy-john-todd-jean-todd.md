@@ -5,7 +5,11 @@ title: Muriel, Bill, Nancy, John Todd, Jean Todd
 description: Glasgow, 1946
 tags:
   - All pictures
-  - Todd family
+  - John Todd
+  - Jean Todd
+  - Nancy
+  - Bill
+  - Muriel
   - Scotland
-  - 1940s
+  - "1940"
 ---
