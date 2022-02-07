@@ -6,6 +6,8 @@ description: St Cyrus, 1938
 tags:
   - All pictures
   - Nancy
+  - Bill
+  - Jean Todd
   - Scotland
   - 1930s
 ---
