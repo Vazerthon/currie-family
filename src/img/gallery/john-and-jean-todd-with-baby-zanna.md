@@ -5,7 +5,8 @@ title: John and Jean Todd with Baby Zanna
 description: Chitambo, 1964
 tags:
   - All pictures
-  - Todd family
+  - John Todd
+  - Jean Todd
   - Zanna
   - Zambia
   - 1960s
