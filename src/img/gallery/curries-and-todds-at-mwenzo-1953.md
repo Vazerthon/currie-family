@@ -7,7 +7,7 @@ tags:
   - Milton
   - Nancy
   - John
-  - Jean
+  - Jean Todd
   - David
   - Douglas
   - Joan
