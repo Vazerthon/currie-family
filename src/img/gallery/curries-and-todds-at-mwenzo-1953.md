@@ -6,7 +6,7 @@ description: Milton and Nancy with John and Jean Todd, David, Douglas and Joan
 tags:
   - Milton
   - Nancy
-  - John
+  - John Todd
   - Jean Todd
   - David
   - Douglas
