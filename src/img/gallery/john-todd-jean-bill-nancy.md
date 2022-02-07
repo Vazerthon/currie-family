@@ -6,7 +6,9 @@ description: Glasgow, 1947
 tags:
   - All pictures
   - Nancy
-  - Todd family
+  - Bill
+  - John Todd
+  - Jean Todd
   - Scotland
   - 1940s
 ---
