@@ -11,5 +11,5 @@ tags:
   - Bill
   - Muriel
   - Scotland
-  - "1940"
+  - 1940s
 ---
