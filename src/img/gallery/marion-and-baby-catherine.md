@@ -6,5 +6,7 @@ description: Kundalila 1960s
 tags:
   - All pictures
   - Marion
-  - Zanna1960s
+  - Zanna
+  - Zambia
+  - 1960s
 ---
