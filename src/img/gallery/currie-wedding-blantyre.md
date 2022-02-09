@@ -6,7 +6,6 @@ description: Hamilton Currie and Isobel Hamilton wedding 1914
 tags:
   - Hamilton Currie
   - Isobel
-  - wedding
-  - Blantyre
+  - Malawi
   - 1910s
 ---
